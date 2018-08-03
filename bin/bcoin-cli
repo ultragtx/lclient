@@ -6,10 +6,10 @@ const Config = require('bcfg');
 const NodeClient = require('../lib/node');
 
 const ports = {
-  main: 8332,
-  testnet: 18332,
-  regtest: 48332,
-  simnet: 18556
+  main: 9332,
+  testnet: 19332,
+  regtest: 19445,
+  simnet: 19556
 };
 
 class CLI {

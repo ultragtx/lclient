@@ -6,10 +6,10 @@ const Config = require('bcfg');
 const WalletClient = require('../lib/wallet');
 
 const ports = {
-  main: 8334,
-  testnet: 18334,
-  regtest: 48334,
-  simnet: 18558
+  main: 9332,
+  testnet: 19332,
+  regtest: 19445,
+  simnet: 19556
 };
 
 class CLI {
